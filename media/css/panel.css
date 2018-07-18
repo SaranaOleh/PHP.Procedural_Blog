@@ -1,0 +1,12 @@
+*, html, body{margin: 0; padding: 0;list-style: none;text-decoration: none;box-sizing: border-box;}
+.basis{display: flex;justify-content: center;align-items: center;height: 100vh;}
+.user{width: 200px;margin-right: 20px;}
+.user img{width: 100%;}
+.user a{color: black;border: 2px solid black;padding: 5px;}
+.user li{text-align: center;}
+.user li:nth-child(2){font-size: 2em;font-weight: bolder;}
+.user li:not(:last-child){margin-bottom: 10px;}
+.user li:nth-child(3){margin-bottom: 20px;}
+.user li:last-child{display: flex;flex-direction: column;}
+.user li:last-child a{margin-bottom: 10px;}
+.user li:nth-child(3) a:hover, .user li:nth-child(4) a:hover{background: black;color: #fff;}

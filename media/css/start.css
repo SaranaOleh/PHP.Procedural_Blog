@@ -1,0 +1,7 @@
+*, html, body{margin: 0; padding: 0;list-style: none;text-decoration: none;box-sizing: border-box;}
+.basis{display: flex;justify-content: center;align-items: center;height: 100vh;transition: 1s;}
+form{display: flex;flex-direction: column;align-items: center;transition: 1s;opacity: 0;border-radius: 35px;padding: 20px;}
+p{font-family: monospace;font-size: 2em;font-weight: bold;margin-bottom: 10px;}
+form input:nth-of-type(1){text-align: center;border:0;font-size: 1.2em;margin-bottom: 10px;}
+form input:nth-of-type(2){padding: 5px;font-family: monospace;font-size: 1.5em;font-weight: bold;}
+.block{box-shadow: 0 0 80px 0 black;border-radius: 35px;}
